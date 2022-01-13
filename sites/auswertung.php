@@ -16,7 +16,6 @@
             <a href="../index.html">Home</a>
             <a href="sportverein.html">Sportverein</a>
             <a href="feuerwehr.html">Feuerwehr</a>
-            <a href="ur.html">united Rottorf</a>
             <a id="navbar-active" href="wissensquiz.html">Wissensquiz</a>
             <a href="karte.html">Karte</a>
             <a style="float:right" href="impressum.html">Impressum</a>
