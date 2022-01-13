@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Rottorf</title>
+    <link rel="stylesheet" href="../mystyle.css">
+
+    <div id="head">
+        <h1>Kaiserreich Rottorf</h1>
+    </div>
+</head>
+
+<body>
+    <div id="navbar">
+        <div id="navbar-margin">
+            <a href="../index.html">Home</a>
+            <a href="sportverein.html">Sportverein</a>
+            <a href="feuerwehr.html">Feuerwehr</a>
+            <a href="ur.html">united Rottorf</a>
+            <a id="navbar-active" href="wissensquiz.html">Wissensquiz</a>
+            <a href="karte.html">Karte</a>
+            <a style="float:right" href="impressum.html">Impressum</a>
+        </div>
+    </div>
+
+    <div id="content-left">
+        <div class="content-box-left">
+            <h2>Wie gut kennst du Rottorf?</h2>
+            <form id="quiz" action="auswertung.php" method="post">
+                <fieldset>
+                    <legend>Wie viele Einwohner hat Rottorf (Stand 31. Dezember 2017)?</legend>
+                    <select name="ew">
+                        <option value="400-500">400-500</option>
+                        <option value="500-600">500-600</option>
+                        <option value="600-700">600-700</option>
+                        <option value="700-800">700-800</option>
+                        <option value="800-900">800-900</option>
+                        <option value="900-1000">900-1000</option>
+                        <option value="1000-1100">1000-1100</option>
+                        <option value="1100-1200">1100-1200</option>
+                        <option value="1200-1300">1200-1300</option>
+                        <option value="1300-1400">1300-1400</option>
+                        <option value="1400-1500">1400-1500</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Wo kann man in Rottorf essen gehen?</legend>
+                    <input type="checkbox" name="ws" value="ws">Werkstatt<br>
+                    <input type="checkbox" name="tbk" value="tbk">Taverna bei Kosta<br>
+                    <input type="checkbox" name="zl" value="zl">Zur Linde<br>
+                    <input type="checkbox" name="cc" value="cc">Café Canapé<br>
+                </fieldset>
+                <fieldset>
+                    <legend>Was findet alle zwei Jahre im Wechsel statt?</legend>
+                    <input type="radio" name="aktion" value="sf-df">Sommerfest - Dorffest<br>
+                    <input type="radio" name="aktion" value="fm-wb">Flohmarkt - Weihnachtsbasar<br>
+                    <input type="radio" name="aktion" value="ms-mv">Müll sammeln - Müll verteilen<br>
+                </fieldset>
+                <input type="submit" name="submit" value="Prüfen" style="margin: 6% 0 0 3%">
+            </form>
+        </div>
+    </div>
+
+    <div id="content-right">
+        <div class="content-box-right">
+            <h2>NEWS</h2>
+            <h3>Sommerfest</h3>
+            <img class="image-center" src="../images/news_sommerfest.jpg" alt="Image will be load in few seconds...">
+            <p>
+                Kommendes Wochenende steht in Rottorf das Sommerfest der Feuerwehr vor der Tür.
+                Kleine Spiele für die Kinder und abends ein DJ der für ordentlich Partystimmung sorgt.
+            </p>
+        </div>
+
+        <div class="content-box-right">
+            <h2>NEWS</h2>
+            <h3>15 Jahre Jubiläum uR</h3>
+            <img class="image-center" src="../images/urjubiläumsfeier.jpg" alt="Image will be load in few seconds...">
+            <p>
+                united Rottorf feierte am letzten Wochenden ihr 15 jähriges Jubiläum.
+                Eine Band Spielte Musik, die gute Laune verbreitete. Bei der Tombola wurden
+                einige tolle Preise verlost. Eine rundum schöne Feier.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
