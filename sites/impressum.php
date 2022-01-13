@@ -31,7 +31,7 @@
         $message = $_GET['text'];
         $phone= $_GET['tel'];
         $formcontent=" Von: $name \n Telefon: $phone \n Mein Anliegen: $message";
-        $recipient = "mattes@fgt16.de";
+        $recipient = "spam@kaiserreich.cloud";
         $subject = "Anliegen im Kaiserreich";
         $mailheader = "From: $email \r\n";
         mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
@@ -41,26 +41,13 @@
 </div>
 
 <div id="content-right">
-    <div class="content-box-right">
-        <h2>NEWS</h2>
-        <h3>Sommerfest</h3>
-        <img class="image-center" src="../images/news_sommerfest.jpg" alt="Image will be load in few seconds...">
-        <p>
-            Kommendes Wochenende steht in Rottorf das Sommerfest der Feuerwehr vor der Tür.
-            Kleine Spiele für die Kinder und abends ein DJ der für ordentlich Partystimmung sorgt.
-        </p>
+        <div class="content-box-right">
+            <h2>NEWS</h2>
+            <img class="image-center" src="" alt="Image will be load in few seconds...">
+            <p>
+                Derzeit stehen keine Neuigkeiten zur Verfügung.
+            </p>
+        </div>
     </div>
-
-    <div class="content-box-right">
-        <h2>NEWS</h2>
-        <h3>15 Jahre Jubiläum uR</h3>
-        <img class="image-center" src="../images/urjubiläumsfeier.jpg" alt="Image will be load in few seconds...">
-        <p>
-            united Rottorf feierte am letzten Wochenden ihr 15 jähriges Jubiläum.
-            Eine Band Spielte Musik, die gute Laune verbreitete. Bei der Tombola wurden
-            einige tolle Preise verlost. Eine rundum schöne Feier.
-        </p>
-    </div>
-</div>
 </body>
 </html>
